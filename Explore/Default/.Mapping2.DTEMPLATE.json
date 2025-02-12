@@ -1,0 +1,30 @@
+{
+  "objectInfo" : {
+    "id" : "aX0FGPByyE0llq1MprtT66",
+    "name" : "Mapping2",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01D6UD17000000000004"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "In Type 1 Slowly Changing Dimension, the new records simiply overwrite the original records and no history is kept. It should be used when it is not necessary for the data warehouse to keep track of historical changes.\n\nRequired fields in the slowly changing dimension:\n1. Surrogate key - numeric field of integer or bigint data type.\n2. Set of fields (or a single field) that represents the unique record identifier or the primary key of the source object.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2025-02-12T12:54:04.502Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
